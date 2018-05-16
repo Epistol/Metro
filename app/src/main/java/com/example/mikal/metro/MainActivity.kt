@@ -2,6 +2,7 @@ package com.example.mikal.metro
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,5 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         // Accès a une string depuis le code
         // R.string.app_name
+
+        val button = findViewById<Button>(R.id.button_login)
     }
 }
