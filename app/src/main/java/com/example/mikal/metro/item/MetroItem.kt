@@ -20,8 +20,10 @@ class MetroItem: AbstractItem<MetroItem, MetroItem.MetroViewHolder>() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
+    // View de la cellule recyclée
     class MetroViewHolder(itemView: View?) : FastAdapter.ViewHolder<MetroItem>(itemView) {
 
+        // On va nettoyer la cellule graphique
         override fun unbindView(item: MetroItem?) {
             TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
         }
