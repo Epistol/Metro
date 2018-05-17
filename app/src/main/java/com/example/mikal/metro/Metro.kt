@@ -16,7 +16,7 @@ class Metro {
     }
 
 
-    constructor(code: String, ,name: String, directions: String, id: String){
+    constructor(code: String, name: String, directions: String, id: String){
         this.code = code
         this.name = name
         this.directions = directions
