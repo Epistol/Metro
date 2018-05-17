@@ -20,7 +20,7 @@ class MetroItem: AbstractItem<MetroItem, MetroItem.MetroViewHolder>() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    class MetroViewHolder: FastAdapter.ViewHolder<MetroItem>{
+    class MetroViewHolder(itemView: View?) : FastAdapter.ViewHolder<MetroItem>(itemView) {
 
         override fun unbindView(item: MetroItem?) {
             TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
